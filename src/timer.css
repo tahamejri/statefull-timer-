@@ -1,0 +1,35 @@
+#mainTimer{
+    width : 30% ;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    margin-top: 10%;
+    
+}
+.timee{
+    text-align: center;
+    font-size: 65px;
+}
+
+#comp{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.buttons{
+    margin-top:5% ;
+}
+button{
+    margin: 25px;
+    height: 8vh;
+    width: 12vw;
+    border-radius: 15px;
+    border: solid 2px black;
+    font-size: 25px;
+}
+
+button:hover{
+    color : blue;
+    border: solid 2px blue;
+}
